@@ -145,12 +145,9 @@ nav li:hover {
 /*Footer*/
 
 footer {
+	display: flex;
 	background-color: rgba(24, 24, 24, 0.3);
-	width: 97%;
-	padding: 1em;
 	font-size: 1.3em;
-	text-align: center;
-	padding: 1em;
 }
 
 footer ul {
@@ -162,6 +159,7 @@ footer ul {
 }
 
 footer a {
+	
 	color: currentColor;
 	text-decoration: none;
 	background-color: transparent;
@@ -169,15 +167,13 @@ footer a {
 
 .redSocial {
 	width: 1.5em;
-	margin-right: 1.5em;
+	margin: 1em;
 }
 
 footer h2 {
 	font-style: italic;
 	font-size: 1.2em;
 	color: rgb(20, 20, 20);
-	margin-top: 0.5em;
-	margin-bottom: 0.2em;
 }
 
 #contact {
